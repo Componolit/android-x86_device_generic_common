@@ -24,7 +24,7 @@ endif
 
 # the following variables could be overridden
 TARGET_PRELINK_MODULE := false
-TARGET_NO_KERNEL ?= false
+TARGET_NO_KERNEL ?= true
 TARGET_NO_RECOVERY ?= true
 TARGET_EXTRA_KERNEL_MODULES := tp_smapi
 ifneq ($(filter efi_img,$(MAKECMDGOALS)),)
